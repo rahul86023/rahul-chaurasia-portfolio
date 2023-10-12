@@ -19,7 +19,7 @@ const App = () => {
       <Router>
       <Navigation /> 
         <Routes>
-          <Route path="/rahul-chaurasia-portfolio/" element={<MainLayout />}>
+          <Route path="/" element={<MainLayout />}>
             <Route index element={<Header />} />
             <Route
               path="about"

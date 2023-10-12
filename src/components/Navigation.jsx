@@ -15,7 +15,7 @@ const Navigation = () => {
     <>
       <div className={`controls ${isLightMode ? 'light-mode' : ''}`}>
         {/* Use Link components for navigation */}
-        <Link to="/rahul-chaurasia-portfolio/" className="control">
+        <Link to="/" className="control">
           <FontAwesomeIcon icon={faHome} />
         </Link>
         <Link to="about" className="control">
