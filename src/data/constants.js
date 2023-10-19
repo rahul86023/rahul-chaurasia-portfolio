@@ -4,7 +4,7 @@ export const Bio = {
   description:
     "I am a passionate full-stack MERN developer with a deep love for crafting comprehensive web applications that offer valuable services to users. My expertise spans the entire stack, from server-side logic to creating engaging user interfaces. If you'd like to learn more about my work, please explore my portfolio.",
   github: "https://github.com/rahul86023",
-  resume: "../../public/img/Resume.pdf",
+  resume: "/img/Resume.pdf",
   linkedin: "https://www.linkedin.com/in/rahul-chaurasia-997a56186/",
   twitter: "",
   insta:
@@ -44,7 +44,7 @@ export const skills = [
       },
       {
         name: "Reactstrap",
-        image: "../../public/img/reactstrap.png",
+        image: "/img/reactstrap.png",
       },
     ],
   },
@@ -68,7 +68,7 @@ export const skills = [
       },
       {
         name: "Rest Api",
-        image: "../../public/img/rest-api.png",
+        image: "/img/rest-api.png",
       },
       {
         name: "MongoDB",
@@ -87,28 +87,28 @@ export const skills = [
     skills: [
       {
         name: "React Router",
-        image: "../../public/img/reactrouter.png",
+        image: "/img/reactrouter.png",
       },
 
       {
         name: "React Toastify",
-        image: "../../public/img/react-toastify.png",
+        image: "/img/react-toastify.png",
       },
       {
         name: "Three.js",
-        image: "../../public/img/threejs.png",
+        image: "/img/threejs.png",
       },
       {
         name: "Passport.js",
-        image: "../../public/img/passportjs.png",
+        image: "/img/passportjs.png",
       },
       {
         name: "Multer",
-        image: "../../public/img/multer.png",
+        image: "/img/multer.png",
       },
       {
         name: "NodeMailer",
-        image: "../../public/img/nodemailer.png",
+        image: "/img/nodemailer.png",
       },
     ],
   },
@@ -143,12 +143,12 @@ export const skills = [
       },
       {
         name: "EJS",
-        image: "../../public/img/EJS.jpg",
+        image: "/img/EJS.jpg",
       },
 
       {
         name: "AWS",
-        image: "../../public/img/aws.png",
+        image: "/img/aws.png",
       },
     ],
   },
@@ -157,7 +157,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "../../public/img/costrategix.jpg",
+    img: "/img/costrategix.jpg",
     role: "Associate Software Engineer",
     company: "Costrategix",
     date: "February 2022 - April 2023",
@@ -175,7 +175,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "../../public/img/probotiq.png",
+    img: "/img/probotiq.png",
     role: "Junior Software Engineer-Intern",
     company: "Probotiq Solutions",
     date: "January 2021 -June 2021 ",
@@ -196,7 +196,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "../../public/img/nitraipur.png",
+    img: "/img/nitraipur.png",
     school: "National Institute Of Technology,Raipur",
     date: "July 2018 - June 2021",
     grade: "7.73 CGPA",
@@ -205,7 +205,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "../../public/img/harisinghgour.png",
+    img: "/img/harisinghgour.png",
     school: "Dr. Hari Singh Gour University,Sagar",
     date: "July 2014 - June 2017",
     grade: "69.8%",
@@ -214,7 +214,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "../../public/img/careenglish.jpg",
+    img: "/img/careenglish.jpg",
     school: "Care English School Chhatarpur",
     date: "July 2013 - June 2014",
     grade: "75.5%",
@@ -230,7 +230,7 @@ export const projects = [
     date: "Jun 2023 - Jul 2023",
     description:
       "Enabled seamless and efficient downloads of media (videos, reels, photos, music) from popular platforms such as Youtube, Facebook, and Instagram",
-    image: "../../public/img/downloadmaster.png",
+    image: "/img/downloadmaster.png",
     tags: [
       "React.js",
       "Node.js",
@@ -249,7 +249,7 @@ export const projects = [
     date: "October 2023",
     description:
       "This is a static web app in which i have used 3D Animations by using Three.js",
-    image: "../../public/img/threejs-site.png",
+    image: "/img/threejs-site.png",
     tags: ["React.js", "Three.Js", "Javascript", "Vite"],
     category: "web app",
     github: "https://github.com/rahul86023/threejs-animation-project",
@@ -261,7 +261,7 @@ export const projects = [
     date: "August 2023-September 2023",
     description:
       "Developed a feature-rich educational management system with user authentication and role-based access, enabling students to enroll, submit assignments, and receive grades, while teachers manage classes and assignments effectively.",
-    image: "../../public/img/notesGrader.png",
+    image: "/img/notesGrader.png",
     tags: [
       "Node.js",
       "Express.js",
@@ -280,7 +280,7 @@ export const projects = [
     date: "September 2023",
     description:
       "This is a  Web application which provides the facility to download the Audio file by Entering Text",
-    image: "../../public/img/text-to-voice.png",
+    image: "/img/text-to-voice.png",
     tags: ["Node.js", "Express.js", "React.js", "Rest Api"],
     category: "web app",
     github: "https://github.com/rahul86023/textToVoice",
@@ -292,7 +292,7 @@ export const projects = [
     date: "Jan 2021-June 2021",
     description:
       "HR On-Boarding Management is a Website. For the Smooth On-Boarding Process of New Hires in any Company. The Purpose of Creating this Website is to make On-Boarding Process Easier For both Employee and HR.",
-    image: "../../public/img/hrOnboarding.png",
+    image: "/img/hrOnboarding.png",
     tags: [
       "Node.js",
       "Express.js",
