@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { Snackbar } from '@mui/material';
+
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -142,9 +142,9 @@ const Contact = () => {
           pauseOnHover: true,
           draggable: true,
         });
-        setOpen(true);
         form.current.reset();
-      }, (error) => {
+      })
+      .catch((error) => {
         toast.error('Failed to Send Email', {
           position: 'top-right',
           autoClose: 5000,
@@ -172,7 +172,9 @@ const Contact = () => {
           <ContactInputMessage required placeholder="Message" rows="4" name="message" />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
-        <ToastContainer
+       
+      </Wrapper>
+      <ToastContainer
         position="top-right"
         autoClose={5000}
         hideProgressBar={false}
@@ -181,9 +183,9 @@ const Contact = () => {
         pauseOnFocusLoss
         draggable
         pauseOnHover
+        toastStyle={{ top: '50px' }} // Adjust the top position as needed
+        style={{ marginTop: '60px' }} // Adjust the top margin as needed
       />
-      </Wrapper>
-     
     </Container>
   )
 }
