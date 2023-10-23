@@ -67,7 +67,7 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
       },
       {
-        name: "Rest Api",
+        name: "Rest API",
         image: "/img/rest-api.png",
       },
       {
@@ -129,6 +129,10 @@ export const skills = [
         name: "Netlify",
         image:
           "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+      },
+      {
+        name: "Vite",
+        image: "/img/vite.jpg",
       },
       {
         name: "VS Code",
@@ -216,7 +220,7 @@ export const education = [
     img: "/img/careenglish.jpg",
     school: "Care English School Chhatarpur",
     date: "July 2013 - June 2014",
-    grade: "75.5%",
+    grade: "75.4%",
 
     degree: "12th",
   },
@@ -237,6 +241,7 @@ export const projects = [
       "Reactstrap",
       "React Router",
       "AWS-Ec2",
+      "Rest API",
     ],
     category: "fullstack",
     github: "",
@@ -267,7 +272,7 @@ export const projects = [
       "Mongoose",
       "Passport.js",
       "JWT",
-      "Rest Api",
+      "Rest API",
     ],
     category: "backend",
     github: "https://github.com/rahul86023/notes-grader",
@@ -280,7 +285,7 @@ export const projects = [
     description:
       "This is a  Web application which provides the facility to download the Audio file by Entering Text",
     image: "/img/text-to-voice.png",
-    tags: ["Node.js", "Express.js", "React.js", "Rest Api"],
+    tags: ["Node.js", "Express.js", "React.js", "Rest API"],
     category: "fullstack",
     github: "https://github.com/rahul86023/textToVoice",
     webapp: "",
@@ -300,7 +305,7 @@ export const projects = [
       "Multer",
       "Nodemailer",
       "Ejs",
-      "Rest-Api",
+      "Rest API",
     ],
     category: "fullstack",
     github: "https://github.com/rahul86023/HR-Onboarding",
