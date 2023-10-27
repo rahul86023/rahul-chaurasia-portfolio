@@ -115,6 +115,10 @@ export const skills = [
     title: "Others",
     skills: [
       {
+        name: "DSA",
+        image: "/img/dsa.png",
+      },
+      {
         name: "Git",
         image:
           "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
@@ -238,6 +242,7 @@ export const projects = [
       "React.js",
       "Node.js",
       "Express.js",
+      "Javascript",
       "Reactstrap",
       "React Router",
       "AWS-Ec2",
@@ -270,6 +275,7 @@ export const projects = [
       "Node.js",
       "Express.js",
       "Mongoose",
+      "Javascript",
       "Passport.js",
       "JWT",
       "Rest API",
@@ -285,7 +291,14 @@ export const projects = [
     description:
       "This is a  Web application which provides the facility to download the Audio file by Entering Text",
     image: "/img/text-to-voice.png",
-    tags: ["Node.js", "Express.js", "React.js", "Rest API"],
+    tags: [
+      "Node.js",
+      "Express.js",
+      "Javascript",
+      "React.js",
+      "Rest API",
+      "Vite",
+    ],
     category: "fullstack",
     github: "https://github.com/rahul86023/textToVoice",
     webapp: "",
@@ -301,11 +314,11 @@ export const projects = [
       "Node.js",
       "Express.js",
       "Mongoose",
+      "Javascript",
       "Passport.js",
       "Multer",
       "Nodemailer",
-      "Ejs",
-      "Rest API",
+      "EJS",
     ],
     category: "fullstack",
     github: "https://github.com/rahul86023/HR-Onboarding",
