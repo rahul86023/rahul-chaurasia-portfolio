@@ -254,6 +254,30 @@ export const projects = [
   },
   {
     id: 1,
+    title: "Clinic Connect",
+    date: "October 2023 to Novemeber 2023",
+    description:
+      "This is a Full Stack web application for managing Client And Clinician Details",
+    image: "/img/clinic-connect.png",
+    tags: [
+      "React.js",
+      "Redux Toolkit",
+      "React Router",
+      "Material UI",
+      "Node.js",
+      "Express.js",
+      "mongoose",
+      "Rest API",
+      "Passport.js",
+      "Javascript",
+      "Vite",
+    ],
+    category: "fullstack",
+    github: "https://github.com/rahul86023/clinic-connect",
+    webapp: "https://clinic-connect.netlify.app/",
+  },
+  {
+    id: 2,
     title: "Healthy Homes",
     date: "October 2023",
     description:
@@ -265,7 +289,7 @@ export const projects = [
     webapp: "https://threejs-animation-site.netlify.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Notes Grader",
     date: "August 2023-September 2023",
     description:
@@ -285,7 +309,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 3,
+    id: 4,
     title: "Text To Voice",
     date: "September 2023",
     description:
@@ -304,7 +328,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 4,
+    id: 5,
     title: "HR-Onboarding",
     date: "Jan 2021-June 2021",
     description:
