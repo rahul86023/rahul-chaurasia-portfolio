@@ -258,6 +258,27 @@ export const projects = [
   },
   {
     id: 1,
+    title: "FormEase Clone",
+    date: "Jan 2024",
+    description:
+      "This is the clone web application of FormEase . In this we can view different exams forms at one place",
+    image: "/img/formease.png",
+    tags: [
+      "React.js",
+
+      "Javascript",
+      "Bootstrap",
+      "React Router",
+      "Html",
+      "CSS",
+      "Vite",
+    ],
+    category: "frontend",
+    github: "https://github.com/rahul86023/formease-clone",
+    webapp: "https://formease-web-app.netlify.app/",
+  },
+  {
+    id: 2,
     title: "Clinic Connect",
     date: "October 2023 to Novemeber 2023",
     description:
@@ -281,7 +302,7 @@ export const projects = [
     webapp: "https://clinic-connect.netlify.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Healthy Homes",
     date: "October 2023",
     description:
@@ -293,7 +314,7 @@ export const projects = [
     webapp: "https://threejs-animation-site.netlify.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Notes Grader",
     date: "August 2023-September 2023",
     description:
@@ -313,7 +334,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 4,
+    id: 5,
     title: "Text To Voice",
     date: "September 2023",
     description:
@@ -332,7 +353,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 5,
+    id: 6,
     title: "HR-Onboarding",
     date: "Jan 2021-June 2021",
     description:
